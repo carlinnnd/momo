@@ -132,7 +132,7 @@ button {
         margin-bottom: 30px; /* Reduzo a margem inferior */
     }
     #mensagemFinal span:nth-child(2) {
-        font-size: 0.7em; /* Reduzi ainda mais o "dos" para se adequar */
+        font-size: 0.9em; /* Reduzi ainda mais o "dos" para se adequar */
         margin-top: -0.3em; /* Ajustei a margem negativa para aproximar um pouco */
         margin-bottom: -0.3em; /* Ajustei a margem inferior negativa */
     }
@@ -140,5 +140,4 @@ button {
         font-size: 1.5em; /* Reduzi "Namorados" para caber melhor */
         margin-top: 0em; /* Removi margem negativa */
     }
-    /* As regras para .coração e seus pseudo-elementos foram removidas daqui */
 }
