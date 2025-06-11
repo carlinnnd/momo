@@ -100,19 +100,19 @@ button {
     align-items: center;
     font-family: ' cursive'; /* Uma fonte mais decorativa. Você pode experimentar outras! */
     color: #ff66a3; /* Um tom de rosa que combina com o tema */
-    font-size: 3em; /* Tamanho da fonte para "Feliz Dia" */
-    line-height: 0.9em; /* Ajusta o espaçamento entre as linhas */
+    font-size: 3.5em; /* Tamanho da fonte para "Feliz Dia" */
+    line-height: 1.2em; /* Ajusta o espaçamento entre as linhas */
     text-shadow: 2px 2px 4px rgba(0,0,0,0.2); /* Sutil sombra para realçar */
 }
 
 #mensagemFinal span:nth-child(2) {
-    font-size: 1.5em; /* Tamanho menor para "dos" */
-    margin-top: -15px; /* Ajusta a posição de "dos" para ficar mais perto */
-}
-
-#mensagemFinal span:nth-child(3) {
-    font-size: 2.5em; /* Tamanho para "Namorados" */
-    margin-top: -15px; /* Ajusta a posição de "Namorados" para ficar mais perto */
+        font-size: 0.8em;
+        margin-top: -0.5em;
+        margin-bottom: -0.5em;
+    }
+    #mensagemFinal span:nth-child(3) {
+        font-size: 1.8em;
+        margin-top: 0em;
 }
 
 /* Responsividade para telas menores */
