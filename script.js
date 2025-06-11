@@ -11,6 +11,21 @@ function mostrarFrase() {
   const index = Math.floor(Math.random() * frases.length);
   fraseEl.textContent = frases[index];
 }
+
+function startApp() {
+  const audio = document.getElementById("musica");
+  audio.play();
+  document.getElementById("startScreen").style.display = "none";
+  document.getElementById("app").style.display = "block";
+}
+
+setInterval(() => {
+  const coracao = document.createElement("div");
+  coracao.className = "coração";
+  coracao.style.left = Math.random() * 100 + "vw";
+  document.body.appendChild(coracao);
+  setTimeout(() => coracao.remove(), 4000);
+}, 500);
 const fotos = [
   "foto1.jpg",
   "foto2.jpg",
@@ -36,19 +51,3 @@ function trocarFoto() {
 }
 
 setInterval(trocarFoto, 3000); // troca a cada 3 segundos
-
-
-function startApp() {
-  const audio = document.getElementById("musica");
-  audio.play();
-  document.getElementById("startScreen").style.display = "none";
-  document.getElementById("app").style.display = "block";
-}
-
-setInterval(() => {
-  const coracao = document.createElement("div");
-  coracao.className = "coração";
-  coracao.style.left = Math.random() * 100 + "vw";
-  document.body.appendChild(coracao);
-  setTimeout(() => coracao.remove(), 4000);
-}, 500);
