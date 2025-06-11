@@ -4,7 +4,7 @@ const frases = [
   "Momo, minha vida é melhor com você 💘",
   "Você é meu porto seguro ❤️",
   "A cada batida do meu coração, eu te amo mais 💓",
-  "Você é o amor da minha vida, minha princesa ✨",
+  "Você é o amor da minha vida, minha princesa! ✨",
   "Seu jeito, seu cheiro, sua beleza... tudo em você me encanta 😍",
   "Momo, você é a mulher dos meus sonhos, meu tudo 💫",
   "Cada momento ao seu lado é um pedacinho do paraíso 😇",
