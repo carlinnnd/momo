@@ -11,6 +11,32 @@ function mostrarFrase() {
   const index = Math.floor(Math.random() * frases.length);
   fraseEl.textContent = frases[index];
 }
+const fotos = [
+  "foto1.jpg",
+  "foto2.jpg",
+  "foto3.jpg",
+  "foto4.jpg",
+  "foto5.jpg",
+  "foto6.jpg",
+  "foto7.jpg",
+  "foto8.jpg",
+  "foto9.jpg"
+];
+
+let fotoAtual = -1;
+
+function trocarFoto() {
+  let novaFoto;
+  do {
+    novaFoto = Math.floor(Math.random() * fotos.length);
+  } while (novaFoto === fotoAtual);
+
+  fotoAtual = novaFoto;
+  document.getElementById("slide").src = fotos[fotoAtual];
+}
+
+setInterval(trocarFoto, 3000); // troca a cada 3 segundos
+
 
 function startApp() {
   const audio = document.getElementById("musica");
