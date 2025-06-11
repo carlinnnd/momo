@@ -78,7 +78,7 @@ button {
 }
 
 #slide {
-  height: 240px;
+  height: 400px;
   object-fit: cover;
   border: none !important;
   margin-left: 0;
