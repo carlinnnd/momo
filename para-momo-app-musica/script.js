@@ -13,6 +13,12 @@ function mostrarFrase() {
   const index = Math.floor(Math.random() * frases.length);
   fraseEl.textContent = frases[index];
 }
+function startApp() {
+  const audio = document.getElementById("musica");
+  audio.play();
+  document.getElementById("startScreen").style.display = "none";
+}
+
 
 function criarCoracoes() {
   const heartsDiv = document.querySelector(".hearts");
