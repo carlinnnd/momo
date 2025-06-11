@@ -115,13 +115,30 @@ button {
         margin-top: 0em;
 }
 
-/* Responsividade para telas menores */
+/* Ajustes para telas menores (celulares) */
 @media (max-width: 600px) {
+    /* Ajuste da imagem principal */
+    #slide {
+        height: 350px; /* Reduzi um pouco a altura para que caiba mais conteúdo na tela */
+        width: 90%;   /* Mantive a largura para adaptar à tela */
+        object-fit: contain; /* Garante que a imagem se ajuste sem cortar */
+    }
+
+    /* Ajuste da mensagem "Feliz Dia dos Namorados" */
     #mensagemFinal {
-        font-size: 2em; /* Reduz o tamanho da fonte para celulares */
+        font-size: 1.8em; /* Reduzi a fonte base para a mensagem final */
+        line-height: 1.2em; /* Mantenho um bom espaçamento entre as linhas */
+        margin-top: 30px; /* Reduzo a margem superior para aproximar */
+        margin-bottom: 30px; /* Reduzo a margem inferior */
     }
-    #mensagemFinal span:nth-child(2),
+    #mensagemFinal span:nth-child(2) {
+        font-size: 0.7em; /* Reduzi ainda mais o "dos" para se adequar */
+        margin-top: -0.3em; /* Ajustei a margem negativa para aproximar um pouco */
+        margin-bottom: -0.3em; /* Ajustei a margem inferior negativa */
+    }
     #mensagemFinal span:nth-child(3) {
-        font-size: 1em; /* Ajusta o tamanho para os elementos menores */
+        font-size: 1.5em; /* Reduzi "Namorados" para caber melhor */
+        margin-top: 0em; /* Removi margem negativa */
     }
+    /* As regras para .coração e seus pseudo-elementos foram removidas daqui */
 }
