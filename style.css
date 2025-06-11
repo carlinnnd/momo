@@ -71,6 +71,17 @@ button {
     opacity: 0;
   }
 }
-<div id="slideshow">
-  <img id="slide" src="foto1.jpg" alt="Foto do casal">
-</div>
+#slideshow {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#slide {
+  height: 180px;
+  object-fit: cover;
+  border: none;
+  margin-left: 10px;
+}
+
