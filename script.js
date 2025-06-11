@@ -12,6 +12,10 @@ const frases = [
   "Com você, a vida é uma melodia perfeita e cheia de amor 🎶",
   "Você é a perfeição em pessoa, minha Momo 🌸",
   "Sou eternamente grato por ter você na minha vida 🙏"
+  "Eu amo o jeitinho que você me olha com esses olhinhos lindos.",
+  "Te observar em silêncio já é felicidade pra mim.",
+  "É impossível não sorrir quando você aparece.",
+  "Você tem o dom de transformar dias comuns em momentos incríveis."
 ];
 
 function mostrarFrase() {
