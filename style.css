@@ -80,9 +80,9 @@ button {
 #slide {
   height: 180px;
   object-fit: cover;
-  border: none;
+  border: none !important;
   margin-left: 0;
-  box-shadow: none;
-  background: none;
+  box-shadow: none !important;
+  background: none !important;
 }
 
