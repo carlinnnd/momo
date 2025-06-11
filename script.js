@@ -3,7 +3,15 @@ const frases = [
   "Você é a melhor parte do meu dia 🥰",
   "Momo, minha vida é melhor com você 💘",
   "Você é meu porto seguro ❤️",
-  "A cada batida do meu coração, eu te amo mais 💓"
+  "A cada batida do meu coração, eu te amo mais 💓",
+  "Você é o amor da minha vida, minha princesa ✨",
+  "Seu jeito, seu cheiro, sua beleza... tudo em você me encanta 😍",
+  "Momo, você é a mulher dos meus sonhos, meu tudo 💫",
+  "Cada momento ao seu lado é um pedacinho do paraíso 😇",
+  "Minha linda, sou completamente apaixonado por você ❤️‍🔥",
+  "Com você, a vida é uma melodia perfeita e cheia de amor 🎶",
+  "Você é a perfeição em pessoa, minha Momo 🌸",
+  "Sou eternamente grato por ter você na minha vida 🙏"
 ];
 
 function mostrarFrase() {
